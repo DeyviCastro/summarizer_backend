@@ -2,7 +2,7 @@
     "compilerOptions": {
         "outDir": "./dist",
         "rootDir": "./src",
-        "lib": ["ESNext"],
+        "lib": ["ESNext", "dom"],
         "target": "ESNext",
         "moduleResolution": "NodeNext",
         "module": "NodeNext",
@@ -10,8 +10,7 @@
         "sourceMap": true,
         "esModuleInterop": true,
         "declaration": true,
-        "resolveJsonModule": true,
-        // "typeRoots": ["./src/types", "./node_modules/@types"],
+        "resolveJsonModule": true
         
     },
     "include": ["src/**/*"]
